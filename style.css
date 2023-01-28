@@ -1,0 +1,70 @@
+:root {
+    --app-white: #f7e7c0;
+    --app-black: #052022;
+    --app-grey: #477375;
+}
+
+#visualTap {
+    width:375px;
+    height: 375px;
+    background: var(--app-black);
+    border-radius: 10px;
+    border: solid 3px var(--app-grey);
+    display: flex;
+    flex-direction: column;
+    color: var(--app-white);
+}
+
+#appTitle {
+    border-radius: 10px;
+    border-bottom: solid 3px var(--app-grey);
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    color: var(--app-white);
+}
+
+#bpmBox {
+    border-radius: 10px;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    padding: 5% 0px 5% 0px;
+    font-size: 28px;
+}
+
+#bpm {
+    width: 15%;
+    background: var(--app-black);
+    border: none;
+    color: var(--app-white);
+    font-size: 20px;
+} 
+
+#tapBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5%;
+}
+
+button {
+    width: 25%;
+    height: 15%;
+    border-radius: 10px;
+    background: var(--app-white);
+    color: var(--app-black);
+    font-weight: bold;
+    border: solid var(--app-grey) 3px;
+}
+button:hover{cursor: pointer;}
+button:active {background: var(--app-grey);}
+
+#clic {
+    margin: 0px, auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--app-black);
+}
+
